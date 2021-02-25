@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+body{
+    background: #e8efeb;
+}
+
+a.navbar-brand{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+nav.nav-color{
+    background: #161d6f;
+    box-shadow: 1px 1px 10px #161d6f;
+}
+
+a.nav-link{
+    text-transform: capitalize;
+}
+
+div.landing-page{
+    width: 100%;
+    box-shadow: 1px 1px 8px 1px #161d6f65;
+    border-radius: 10px;
+    background: #eae3c8;
+}
+div.c h1{
+    font-size: 14rem;
+    text-transform: uppercase;
+    color : #161d6f !important;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.start{
+    padding-bottom: 15px;
+}
+.get-start{
+    background: #161d6f;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: capitalize;
+}
+a.get-start:hover{
+    color : #161d6f !important;
+    background : #ffffff !important;
+    box-shadow: 5px 5px 8px 3px #161d6f65;    
+}
+
+.program-example{
+    background: #313131;
+    border-radius: 15px;
+    box-shadow: 3px 3px 8px #07091d;
+
+}
+span.cmnt{
+    color: #8a8383 !important;
+}
+.program-tagline{
+    padding: 25px 15px;
+}
+
+
+.ex-programs{
+    width: 100%;
+    padding: 25px 15px;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+
+footer{
+    height: 200px;
+    background: #414040;
+}
+@media only screen and (max-width: 768px) {
+    div.collapse{
+        text-align: center;
+    }
+    a.navbar-brand{
+        font-size: 1.2rem;
+    }
+    div.landing-page h3{
+        font-size: 1.1rem;
+    }
+    div.c h1{
+        font-size: 10rem;
+    }
+    .start.py-5 {
+        padding: 15px 0px !important;
+    }
+    .top-tagline{
+        font-size: 12px;
+    }
+    main.py-4{
+        padding: 10px 0px !important;
+    }
+}
