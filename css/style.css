@@ -28,7 +28,7 @@ div.c h1{
     font-size: 14rem;
     text-transform: uppercase;
     color : #161d6f !important;
-    font-family: 'Kaushan Script', cursive;
+    font-family: fantasy;
 }
 
 .start{
@@ -71,9 +71,14 @@ span.cmnt{
 
 
 footer{
-    height: 200px;
-    background: #414040;
+    background: #1d1d1d;
 }
+h3.footer-tagline {
+    padding-top: 1rem;
+    text-align: center;
+    color: white;
+}
+
 @media only screen and (max-width: 768px) {
     div.collapse{
         text-align: center;
